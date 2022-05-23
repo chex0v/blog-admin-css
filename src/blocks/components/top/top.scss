@@ -1,0 +1,48 @@
+.top {
+  padding: 2rem;
+  border: 1px solid $primary;
+  border-radius: 5px;
+  margin-top: 1rem;
+
+  // .top__count
+
+  &__count {
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 1px solid $secondary;
+    margin-top: 2rem;
+  }
+
+  // .top__lists
+
+  &__lists {
+    margin-top: 1rem;
+    line-height: 2rem;
+  }
+
+  // .top__items
+
+  &__items {
+    list-style: none;
+  }
+
+  // .top__item
+
+  &__item {
+  }
+
+  // .top__link
+
+  &__link {
+    color: $neutral;
+    font-size: 1.5rem;
+    font-family: bold;
+  }
+
+  // .top__all
+
+  &__all {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+}

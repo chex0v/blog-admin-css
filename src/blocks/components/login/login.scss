@@ -1,0 +1,86 @@
+.login {
+  max-width: 35rem;
+  margin: 10rem auto 0 auto;
+  // .login__form
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 1rem;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+      0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  }
+
+  // .login__label
+
+  &__label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 20rem;
+    width: 100%;
+  }
+
+  // .login__text
+
+  &__text {
+    // .login__text_label
+
+    &_label {
+      font-size: 1.5rem;
+    }
+  }
+
+  // .login__input
+
+  &__input {
+    // .login__input_text
+
+    &_text {
+      padding: 0.5rem;
+      width: 100%;
+      border: none;
+      border: 1px solid $primary;
+      border-radius: 8px;
+    }
+  }
+
+  // .login__btn"
+
+  &__btn {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    text-align: center;
+    background: $neutral;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid $neutral;
+  }
+
+  // .login__error
+
+  &__error {
+    color: rgb(165, 65, 65);
+    font-weight: bold;
+
+    // .login__error_block
+
+    &_block {
+    }
+
+    // .login__error_items
+
+    &_items {
+      list-style: none;
+      text-align: center;
+    }
+
+    // .login__error_item
+
+    &_item {
+    }
+  }
+}

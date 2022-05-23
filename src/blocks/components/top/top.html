@@ -1,0 +1,18 @@
+<div class="top">
+  <h2 class="post_title">@@title</h2>
+  <div class="top__count">Всего: @@count</div>
+  <div class="top__lists">
+    <ul class="top__items">
+      @@for (var i = 0; i < limit; i++) {
+      <li class="top__item">
+        <a href="#!" class="top__link">
+          @@template
+        </a>
+      </li>
+      }
+    </ul>
+    <div class="top__all">
+      <a href="#!" class="top__link">Все</a>
+    </div>
+  </div>
+</div>
