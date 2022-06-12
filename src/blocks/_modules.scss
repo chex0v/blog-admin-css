@@ -1,9 +1,11 @@
 // компоненты
 @import "components/top/top";
 @import "components/login/login";
+@import "components/admin-pagination/admin-pagination";
 
 // модули
 @import "modules/header/header";
 @import "modules/footer/footer";
 @import "modules/central/central";
 @import "modules/blog/blog";
+@import "modules/detail-page/detail-page";

@@ -1,0 +1,109 @@
+.post {
+  // .post__wrapper
+
+  &__wrapper {
+    padding: 10px;
+  }
+
+  // .post__back
+
+  &__back {
+    // .post__back_link
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+
+    &_link {
+      color: #000;
+      width: 100%;
+    }
+  }
+
+  // .post__detail
+
+  &__detail {
+  }
+
+  // .post__buttons
+
+  &__buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+  }
+  // .post__btn
+
+  &__btn {
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  // .post__save
+
+  &__save {
+    background: green;
+  }
+
+  // .post__published
+
+  &__published {
+    background: blue;
+  }
+
+  // .post__delete
+
+  &__delete {
+    background: red;
+  }
+
+  // .post__title
+
+  &__title {
+    padding: 25px 0;
+  }
+
+  // .post__input
+
+  &__input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    &:focus {
+      border: 1px solid #ccc;
+    }
+  }
+
+  // .post__slug
+
+  &__slug {
+  }
+
+  // .post__annotation
+
+  &__annotation {
+  }
+
+  // .post__textarea
+
+  &__textarea {
+    margin-top: 25px;
+    height: 250px;
+    width: 100%;
+  }
+
+  // .post__body
+
+  &__body {
+  }
+}
